@@ -61,20 +61,6 @@
   color: #fefa06;
   font-family: 'Roboto', sans-serif;
 }
-/* ------------------------------------------------------------------ footer */
-
-
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #fefa06;;
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
-
 
 /*----------------------------------------------------------------- design page image grid */
 
@@ -136,30 +122,179 @@ input[type=submit]:hover {
   color: #fefa06;
 }
 
-
-
-/* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 50%;
   margin-top: 6px;
   padding: 20px;
 }
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+/* ---------------------- about me page */
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+.masthead {
+padding: 6em 0;
+border-top: solid 1em #fefa06;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:  2em;
+}
+
+.masthead-heading {
+  color: #fefa06;
+  margin-top: -0.2em;
+
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+.masthead {
+padding: 6em 0;
+background-image: url(./Images/TV\ HEADER\ FIXED.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+border-top: solid 1em #fefa06;
+}
+
+.masthead-intro {
+margin-bottom: 0.1em;
+  font-size: 2em;
+}
+
+.masthead-heading {
+margin-top: -0.2em;
+font-weight: bold;
+font-size: 6em;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+h2 {
+
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.content-footer {
+margin: 50px 0;
+padding: 20px 0;
+text-align: center;
+background-color: #fefa06;
+text-decoration: none;
+}
+.social {
+display: inline-block;
+margin: 0 5px;
+}
+.content-footer {
+color: #000000;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
