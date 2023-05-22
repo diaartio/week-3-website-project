@@ -1,0 +1,189 @@
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  /* nav bar link style */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active page */
+  .topnav a.active {
+    background-color: #fefa06;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    
+  }
+
+  body, html {
+    height: 100%;
+}
+
+/*hero image */
+.hero-image {
+  /* linear gradient to darken the image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/squarespace\ b&w\ skull\ backlground.jpg");
+
+  /* Set a specific height */
+  height: 92%;
+
+/* center image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+
+}
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fefa06;
+  font-family: 'Roboto', sans-serif;
+}
+/* ------------------------------------------------------------------ footer */
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fefa06;;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+/*----------------------------------------------------------------- design page image grid */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6px;
+}
+
+/* four columns  */
+.column {
+  flex: 25%;
+  max-width: 24.5%;
+  padding: 0 6px;
+}
+
+.column img {
+  margin-top: 6px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* --------------------------------------- contact form */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit] {
+  background-color: #fefa06;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #ffae00;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #fefa06;
+}
+
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
